@@ -1,0 +1,15 @@
+#include "mainwindow.h"
+#include <IO/libimobiledevice/libimobiledevice.h>
+#include <IO/libimobiledevice/lockdown.h>
+#include <QApplication>
+#include <QtCore>
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+
+
+
+    MainWindow w;
+    w.show();
+    return a.exec();
+}
